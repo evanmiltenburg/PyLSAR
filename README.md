@@ -17,14 +17,14 @@ If you want to expand the script, also have a look at the R-package *LSAfun*.
 The `./resources` folder contains one example space, TASA_RP.rda, which comes from [this open directory](http://www.lingexp.uni-tuebingen.de/z2/LSAspaces/). The following other LSA spaces are publically available there as well.
 
 ```
- TASA.rda                21-May-2014 11:37  168M  
- TASA_RP.rda             07-Jul-2014 10:23   30M  
- blogs.rda               24-Feb-2014 16:29  214M  
- blogs_en.rda            25-Apr-2014 15:19   62M  
- blogs_nl.rda            21-May-2014 11:41  261M  
- blogs_stem.rda          21-May-2014 11:43  187M  
- literature.rda          24-Feb-2014 16:37  162M  
- newspapers.rda          24-Feb-2014 16:35  239M
+ TASA.rda         168M  English LSA Space, 300 dimensions
+ TASA_RP.rda      30M   English, built with Random Projection using the package SemanticVectors
+ blogs.rda        214M  German LSA Space, 300 dimensions
+ blogs_en.rda     62M   English LSA Space, 300 dimensions
+ blogs_nl.rda     261M  Dutch LSA Space, 300 dimensions
+ blogs_stem.rda   187M  German LSA Space, 300 dimensions
+ literature.rda   162M  German LSA space, 300 dimensions
+ newspapers.rda   239M  German LSA space, 300 dimensions
 ```
 
-I just chose to distribute this space for its size. Some other space might be more suitable for your needs. Check out the file descriptions [here](http://www.lingexp.uni-tuebingen.de/z2/LSAspaces/Descriptions.txt).
+I just chose to distribute this space for its size. Some other space might be more suitable for your needs.
